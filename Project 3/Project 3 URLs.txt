@@ -1,0 +1,8 @@
+Project 3 URLs
+
+https://web.njit.edu/~djf47/index.php
+https://web.njit.edu/~djf47/plumber.php
+https://web.njit.edu/~djf47/customers.php
+https://web.njit.edu/~djf47/customerInfo.php
+https://web.njit.edu/~djf47/serviceRecords.php
+https://web.njit.edu/~djf47/suppliesRecords.php

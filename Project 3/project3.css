@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('plumbing-background.jpg');
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button, .home-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .home-button:hover {
+    background-color: #3cb371;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #000; 
+    color: white;
+}
+
+th {
+    background-color: #2e8b57; 
+}

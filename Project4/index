@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfect Plumbing Pros Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Perfect Plumbing Pros</h2>
+        <form id="loginForm" method="POST" action="validate_login.php">
+            <label for="firstName">First Name: <span style="color:red;">Required</span></label>
+            <input type="text" id="firstName" name="firstName" placeholder="Example: John" required>
+
+            <label for="lastName">Last Name: <span style="color:red;">Required</span></label>
+            <input type="text" id="lastName" name="lastName" placeholder="Example: Doe" required>
+
+            <label for="password">Password: <span style="color:red;">Required</span></label>
+            <input type="password" id="password" name="password" placeholder="Example: PPP@1" required>
+            <span id="toggle-password">👁️</span>
+
+            <label for="idNumber">Plumber ID: <span style="color:red;">Required</span></label>
+            <input type="text" id="idNumber" name="idNumber" placeholder="Example: 2468" required>
+
+            <label for="phoneNumber">Phone Number: <span style="color:red;">Required</span></label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Example: 555-555-5555" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Example: PPP@Plumb.com">
+
+            <label for="transaction">Transaction Type:</label>
+            <select id="transaction" name="transaction">
+                <option value="search">Search A Plumber’s Account</option>
+                <option value="schedule">Schedule a Customer's Service Appointment</option>
+                <option value="cancel">Cancel A Customer's Service Appointment</option>
+                <option value="supplies">Request Supplies</option>
+                <option value="update">Update a Customer's Records</option>
+                <option value="create">Create A New Customer Account</option>
+            </select>
+
+            <div class="buttons">
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
